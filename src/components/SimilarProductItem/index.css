@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.ul-similar-item {
+  display: flex;
+  margin: 10px;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.similar-image {
+  height: 120px;
+  width: 120px;
+}
+.name {
+  color: #12022f;
+  font-size: 17px;
+  font-weight: bold;
+}
+.brand {
+  color: #616e7c;
+  font-size: 17px;
+}
+.price-rating-container {
+  display: flex;
+  justify-content: space-between;
+}
+.star-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #3b82f6;
+  padding: 5px;
+  height: 20px;
+  padding: 7px;
+  border-radius: 7px;
+}
+.rate {
+  font-size: 10px;
+  font-weight: bold;
+}
+.rate-star {
+  height: 10px;
+  width: 10px;
+}

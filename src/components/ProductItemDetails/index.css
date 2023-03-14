@@ -1,0 +1,97 @@
+/* Write your CSS here */
+.details-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto';
+
+  padding: 30px;
+}
+.failure-image {
+  height: 300px;
+  width: 400px;
+}
+.failure-text {
+  color: #12022f;
+  font-weight: bold;
+  font-size: 30px;
+}
+.failure-btn {
+  color: white;
+  background-color: #3b82f6;
+  padding: 10px;
+  width: 150px;
+  border-radius: 8px;
+  border-width: 0px;
+}
+.product-details {
+  display: flex;
+}
+.pro-img {
+  height: 300px;
+  width: 200px;
+  margin-right: 15px;
+}
+.similar-heading {
+  align-self: flex-start;
+  font-size: 20px;
+  color: #475569;
+  font-weight: bold;
+  margin-left: 30px;
+}
+.pro-specify-container {
+  display: flex;
+  flex-direction: column;
+}
+.main-heading {
+  font-size: 24px;
+  color: #171f46;
+  font-weight: bold;
+}
+.price {
+  color: #1e293b;
+  font-size: 17px;
+  font-weight: bold;
+}
+.review-container {
+  display: flex;
+}
+.description {
+  color: #616e7c;
+  font-size: 16px;
+}
+.plus {
+  background-color: transparent;
+  border-width: 0px;
+}
+.icon {
+  height: 10px;
+  width: 10px;
+}
+.review {
+  color: black;
+  font-size: 15px;
+}
+.rating-container {
+  height: 15px;
+  width: 30px;
+  background-color: #3b82f6;
+  padding: 6px;
+}
+.star {
+  height: 10px;
+  width: 10px;
+}
+.rating {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+.ul-similar-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sim-item-box {
+  align-self: flex-start;
+}
